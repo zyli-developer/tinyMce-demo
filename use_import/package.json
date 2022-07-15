@@ -9,14 +9,16 @@
   "dependencies": {
     "@packy-tang/vue-tinymce": "^1.1.2",
     "core-js": "^3.4.4",
+    "element-ui": "^2.15.9",
     "tinymce": "^5.10.2",
     "vue": "^2.6.10"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.0",
     "@vue/cli-service": "^4.1.0",
-  	"sass": "^1.53.0",
-		"sass-loader": "10",
+    "babel-plugin-component": "^1.1.1",
+    "sass": "^1.53.0",
+    "sass-loader": "10",
     "vue-template-compiler": "^2.6.10"
   }
 }

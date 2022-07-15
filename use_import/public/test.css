@@ -1,4 +1,4 @@
-break {
+.break {
   margin: 0 2px;
   display: inline-block;
   height: 20px;
@@ -10,13 +10,21 @@ break {
   box-shadow: 0 0 0 1px red;
 
 }
-.xmov-editor break:hover {
+.phoneme[data-mce-selected], .break[data-mce-selected]{
+  cursor: not-allowed;
+  outline: 3px solid #b4d7ff;
+}
+.break:hover {
   background-color: yellow;
   color: #fff;
 }
-phoneme {
+.phoneme {
   display: inline-block;
   cursor: pointer;
   transition: background-color 0.3s ease;
   background-color: rgba(127, 127, 127, 0.2);
+}
+.mce-content-body .mce-offscreen-selection {
+  left: -2000000px;
+  position: absolute;
 }

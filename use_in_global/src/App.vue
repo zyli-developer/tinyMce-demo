@@ -4,7 +4,7 @@
       <img alt="Vue+Tinymce" src="https://raw.githubusercontent.com/lpreterite/vue-tinymce/HEAD/docs/assets/vu-tinymce-logo.png">
     </div>
     <vue-tinymce
-      v-model="content" 
+      v-model="content"
       :setting="setting" />
   </div>
 </template>
