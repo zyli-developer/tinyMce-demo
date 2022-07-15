@@ -23,8 +23,8 @@ import 'tinymce/themes/silver'
 // import 'tinymce/plugins/fullscreen' //全屏插件
 import 'tinymce/plugins/noneditable'
 import 'tinymce/plugins/wordcount'
-import 'tinymce/plugins/ax_wordlimit'
-import 'tinymce/plugins/wordlimit'
+// import 'tinymce/plugins/ax_wordlimit'
+// import 'tinymce/plugins/wordlimit'
 /**
  * 注：
  * 5.3.x版本需要额外引进图标，没有所有按钮就会显示not found
