@@ -1,0 +1,42 @@
+// {
+//   "compilerOptions": {
+//     "target": "esnext",
+//     "module": "esnext",
+//     "strict": true,
+//     "jsx": "preserve",
+//     "importHelpers": true,
+//     "moduleResolution": "node",
+//     "experimentalDecorators": true,
+//     "esModuleInterop": true,
+//     "allowSyntheticDefaultImports": true,
+//     "strictPropertyInitialization": false,
+//     "sourceMap": true,
+//     "baseUrl": ".",
+//     "types": [
+//       "webpack-env"
+//     ],
+//     "typeRoots": [
+//       "node_modules/@types",
+//       "src/@types"
+//     ],
+//     "paths": {
+//       "@/*": [
+//         "src/*"
+//       ]
+//     },
+//     "lib": [
+//       "esnext",
+//       "dom",
+//       "dom.iterable",
+//       "scripthost"
+//     ]
+//   },
+//   "include": [
+//     "src/**/*.ts",
+//     "src/**/*.tsx",
+//     "src/**/*.vue"
+// , "src/utils/tinyEdit.js", "src/main.js"  ],
+//   "exclude": [
+//     "node_modules"
+//   ]
+// }
